@@ -1,0 +1,222 @@
+2017-05-24 01:52:00.895 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:52:00.898 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:52:00.900 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-05-24 01:52:00.914 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-05-24 01:52:00.915 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-05-24 01:52:00.916 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\qhcs\AppData\Local\Temp\/ehcache
+2017-05-24 01:52:00.935 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with default config
+2017-05-24 01:52:00.936 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-05-24 01:52:00.949 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-05-24 01:52:01.187 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:52:01.187 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:52:01.187 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:52:01.196 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:52:01.196 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:52:01.197 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:52:01.219 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for userCache
+2017-05-24 01:52:01.259 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-05-24 01:52:01.260 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-05-24 01:52:01.261 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+2017-05-24 01:52:01.261 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+2017-05-24 01:52:01.262 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-05-24 01:52:01.262 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-05-24 01:52:01.263 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-05-24 01:52:01.280 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-05-24 01:52:01.283 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-05-24 01:52:01.285 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-05-24 01:52:01.288 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+2017-05-24 01:52:01.291 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+2017-05-24 01:52:01.293 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+2017-05-24 01:52:01.294 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-05-24 01:52:01.297 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-05-24 01:52:01.298 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-05-24 01:52:01.299 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-05-24 01:52:01.300 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-05-24 01:52:01.312 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: userCache
+2017-05-24 01:52:01.313 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'userCache'.
+2017-05-24 01:52:01.313 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'userCache'.
+2017-05-24 01:52:31.851 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:52:31.854 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:52:31.856 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-05-24 01:52:31.873 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-05-24 01:52:31.874 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-05-24 01:52:31.876 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\qhcs\AppData\Local\Temp\/ehcache
+2017-05-24 01:52:31.897 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with default config
+2017-05-24 01:52:31.899 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-05-24 01:52:31.910 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-05-24 01:52:32.101 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:52:32.101 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:52:32.101 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:52:32.107 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:52:32.107 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:52:32.107 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:52:32.122 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for userCache
+2017-05-24 01:52:32.147 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-05-24 01:52:32.148 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-05-24 01:52:32.148 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+2017-05-24 01:52:32.148 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+2017-05-24 01:52:32.148 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-05-24 01:52:32.148 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-05-24 01:52:32.149 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-05-24 01:52:32.164 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-05-24 01:52:32.166 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-05-24 01:52:32.166 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-05-24 01:52:32.169 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+2017-05-24 01:52:32.169 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+2017-05-24 01:52:32.170 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+2017-05-24 01:52:32.170 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-05-24 01:52:32.171 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-05-24 01:52:32.171 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-05-24 01:52:32.172 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-05-24 01:52:32.172 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-05-24 01:52:32.180 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: userCache
+2017-05-24 01:52:32.181 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'userCache'.
+2017-05-24 01:52:32.181 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'userCache'.
+2017-05-24 01:53:16.640 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:53:16.643 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:53:16.645 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-05-24 01:53:16.660 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-05-24 01:53:16.660 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-05-24 01:53:16.661 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\qhcs\AppData\Local\Temp\/ehcache
+2017-05-24 01:53:16.683 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with default config
+2017-05-24 01:53:16.685 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-05-24 01:53:16.697 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-05-24 01:53:16.876 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:53:16.876 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:53:16.876 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:53:16.882 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:53:16.882 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:53:16.883 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:53:16.899 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for userCache
+2017-05-24 01:53:16.922 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-05-24 01:53:16.923 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-05-24 01:53:16.924 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+2017-05-24 01:53:16.924 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+2017-05-24 01:53:16.924 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-05-24 01:53:16.925 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-05-24 01:53:16.925 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-05-24 01:53:16.939 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-05-24 01:53:16.940 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-05-24 01:53:16.940 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-05-24 01:53:16.941 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+2017-05-24 01:53:16.941 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+2017-05-24 01:53:16.942 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+2017-05-24 01:53:16.943 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-05-24 01:53:16.944 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-05-24 01:53:16.944 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-05-24 01:53:16.945 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-05-24 01:53:16.946 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-05-24 01:53:16.952 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: userCache
+2017-05-24 01:53:16.952 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'userCache'.
+2017-05-24 01:53:16.952 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'userCache'.
+2017-05-24 01:53:47.631 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:53:47.634 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:53:47.639 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-05-24 01:53:47.656 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-05-24 01:53:47.656 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-05-24 01:53:47.658 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\qhcs\AppData\Local\Temp\/ehcache
+2017-05-24 01:53:47.681 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with default config
+2017-05-24 01:53:47.682 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-05-24 01:53:47.704 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-05-24 01:53:47.894 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:53:47.894 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:53:47.894 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:53:47.902 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:53:47.902 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:53:47.902 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:53:47.917 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for userCache
+2017-05-24 01:53:47.942 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-05-24 01:53:47.943 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-05-24 01:53:47.943 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+2017-05-24 01:53:47.944 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+2017-05-24 01:53:47.944 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-05-24 01:53:47.944 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-05-24 01:53:47.944 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-05-24 01:53:47.959 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-05-24 01:53:47.960 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-05-24 01:53:47.961 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-05-24 01:53:47.962 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+2017-05-24 01:53:47.963 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+2017-05-24 01:53:47.963 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+2017-05-24 01:53:47.963 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-05-24 01:53:47.964 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-05-24 01:53:47.964 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-05-24 01:53:47.965 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-05-24 01:53:47.966 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-05-24 01:53:47.974 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: userCache
+2017-05-24 01:53:47.974 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'userCache'.
+2017-05-24 01:53:47.974 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'userCache'.
+2017-05-24 01:54:00.970 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:54:00.973 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:54:00.976 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-05-24 01:54:00.990 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-05-24 01:54:00.990 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-05-24 01:54:00.992 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\qhcs\AppData\Local\Temp\/ehcache
+2017-05-24 01:54:01.012 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with default config
+2017-05-24 01:54:01.015 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-05-24 01:54:01.028 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-05-24 01:54:01.211 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:54:01.211 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:54:01.211 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:54:01.217 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:54:01.217 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:54:01.217 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:54:01.235 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for userCache
+2017-05-24 01:54:01.259 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-05-24 01:54:01.260 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-05-24 01:54:01.260 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+2017-05-24 01:54:01.260 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+2017-05-24 01:54:01.261 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-05-24 01:54:01.261 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-05-24 01:54:01.261 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-05-24 01:54:01.273 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-05-24 01:54:01.274 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-05-24 01:54:01.274 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-05-24 01:54:01.274 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+2017-05-24 01:54:01.275 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+2017-05-24 01:54:01.275 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+2017-05-24 01:54:01.276 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-05-24 01:54:01.276 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-05-24 01:54:01.277 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-05-24 01:54:01.278 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-05-24 01:54:01.279 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-05-24 01:54:01.284 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: userCache
+2017-05-24 01:54:01.285 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'userCache'.
+2017-05-24 01:54:01.285 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'userCache'.
+2017-05-24 01:55:15.780 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:55:15.784 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/D:/workspace/qhcs/ssm2/target/classes/ehcache.xml
+2017-05-24 01:55:15.786 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-05-24 01:55:15.800 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-05-24 01:55:15.801 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-05-24 01:55:15.802 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\qhcs\AppData\Local\Temp\/ehcache
+2017-05-24 01:55:15.821 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with default config
+2017-05-24 01:55:15.823 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-05-24 01:55:15.834 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-05-24 01:55:16.013 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:55:16.014 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:55:16.014 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:55:16.020 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-05-24 01:55:16.020 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-05-24 01:55:16.020 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-05-24 01:55:16.035 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for userCache
+2017-05-24 01:55:16.059 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-05-24 01:55:16.060 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-05-24 01:55:16.061 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+2017-05-24 01:55:16.061 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+2017-05-24 01:55:16.061 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-05-24 01:55:16.061 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-05-24 01:55:16.061 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-05-24 01:55:16.075 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-05-24 01:55:16.076 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-05-24 01:55:16.077 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-05-24 01:55:16.077 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+2017-05-24 01:55:16.078 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+2017-05-24 01:55:16.078 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+2017-05-24 01:55:16.079 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-05-24 01:55:16.079 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-05-24 01:55:16.080 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-05-24 01:55:16.081 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-05-24 01:55:16.082 [main] DEBUG n.s.e.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-05-24 01:55:16.087 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: userCache
+2017-05-24 01:55:16.088 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'userCache'.
+2017-05-24 01:55:16.088 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'userCache'.

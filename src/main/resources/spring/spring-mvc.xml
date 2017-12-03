@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- 组件扫描路径 -->
+	<context:component-scan base-package="com.qhcs.ssm.controller" />
+	
+	<!-- 自动代理aop切面 -->
+	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+	<!-- 启动spring mvc注解 -->
+	<mvc:annotation-driven>
+		<mvc:message-converters>
+			<bean id="stringHttpMessageConverter"
+				class="org.springframework.http.converter.StringHttpMessageConverter">
+				<property name="supportedMediaTypes">
+					<list>
+						<value>text/plain;charset=UTF-8</value>
+					</list>
+				</property>
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+
+	<!-- 允许访问静态资源文件 -->
+	<mvc:default-servlet-handler />
+
+	<!-- 视图解析器 -->
+	<!-- <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
+		<property name="prefix" value="/WEB-INF/jsp/" /> <property name="suffix" 
+		value=".jsp" /> </bean> -->
+
+	<!-- 内容转让管理器 -->
+	<bean id="contentNegotiationManager"
+		class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+		<!-- 根据请求参数或拓展名映射到相应的MIME类型 -->
+		<property name="mediaTypes">
+			<value>
+				json=application/json
+				xml=application/xml
+			</value>
+		</property>
+		<!-- 是否根据路径拓展名确定MIME类型，比如pet.json返回json视图 -->
+		<property name="favorPathExtension" value="true"></property>
+		<!-- 是否使用参数来确定MIME类型，比如?format=json返回json视图 -->
+		<property name="favorParameter" value="true"></property>
+		<!-- 是否不适用请求头确定MIME类型 -->
+		<property name="ignoreAcceptHeader" value="true"></property>
+		<!-- 设置默认的MIME类型，如果没有指定拓展名或请求参数，则使用此默认MIME类型解析视图，这里是返回页面 -->
+		<property name="defaultContentType" value="text/html" />
+	</bean>
+
+	<!-- 内容转让视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+		<property name="contentNegotiationManager" ref="contentNegotiationManager"></property>
+		<property name="viewResolvers">
+			<list>
+				<!-- jsp视图解析器 -->
+				<bean
+					class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+					<property name="prefix" value="/WEB-INF/jsp/" />
+					<property name="suffix" value=".jsp" />
+				</bean>
+			</list>
+		</property>
+		<property name="defaultViews">
+			<list>
+				<!-- json视图 -->
+				<bean
+					class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" />
+				<!-- xml视图 -->
+				<!-- <bean class="org.springframework.web.servlet.view.xml.MarshallingView"> -->
+				<!-- <constructor-arg> -->
+				<!-- <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller"> -->
+				<!-- <property name="classesToBeBound"> -->
+				<!-- <array> -->
+				<!-- <value>com.qhcs.springmvc.promotion.entity.User</value> -->
+				<!-- <value>com.qhcs.springmvc.promotion.entity.Users</value> -->
+				<!-- </array> -->
+				<!-- </property> -->
+				<!-- </bean> -->
+				<!-- </constructor-arg> -->
+				<!-- </bean> -->
+			</list>
+		</property>
+	</bean>
+
+	<!-- SpringMVC上传文件时，需要配置MultipartResolver处理器 -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="defaultEncoding" value="UTF-8" />
+		<!-- 指定所上传文件的总大小不能超过2M。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->
+		<property name="maxUploadSize" value="2000000" />
+	</bean>
+
+	<!-- byte数组信息转换，避免压缩 -->
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<bean
+					class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
+			</list>
+		</property>
+	</bean>
+
+	<!-- 异常处理解析器 -->
+	<bean
+		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<!-- 定义默认的异常处理页面，当该异常类型的注册时使用 -->
+		<property name="defaultErrorView" value="/error/error"></property>
+		<!-- 定义异常处理页面用来获取异常信息的变量名，默认名为exception -->
+		<property name="exceptionAttribute" value="ex"></property>
+		<!-- 定义需要特殊处理的异常，用类名或完全路径名作为key，异常页面名作为值 -->
+		<property name="exceptionMappings">
+			<props>
+				<!-- 这里还可以继续扩展对不同异常类型的处理 -->
+				<prop key="com.qhcs.springmvc.promotion.exception.BusinessException">/error/businessError</prop>
+				<!-- 未通过认证异常 -->
+				<prop key="org.apache.shiro.authz.UnauthenticatedException">/error/unauthenticated</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- 统一异常处理控制类 -->
+	<!-- <bean id="exceptionHandler" class="com.qhcs.springmvc.promotion.exception.ExceptionHandler"></bean> -->
+
+	<!-- 拦截器 -->
+	<!-- <mvc:interceptors> -->
+	<!-- <mvc:interceptor> -->
+	<!-- 拦截匹配请求地址 -->
+	<!-- <mvc:mapping path="/doValidate"/> -->
+	<!-- 不拦截匹配请求地址 -->
+	<!-- <mvc:exclude-mapping path="/doValidate"/> -->
+	<!-- 拦截操作 -->
+	<!-- <bean class="com.qhcs.springmvc.promotion.interceptor.RegisterInterceptor"></bean> -->
+	<!-- </mvc:interceptor> -->
+	<!-- </mvc:interceptors> -->
+
+</beans>

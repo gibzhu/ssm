@@ -1,0 +1,39 @@
+.logo {
+	width: 50px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+#main {
+	height:500px;
+	margin-top:50px;
+}
+
+.jumbotron {
+	background: url(../img/background.jpg) no-repeat fixed top;
+}
+
+.thumbnail>img {
+	height: 200px;
+}
+
+.footer {
+	background: #222222;
+}
+
+.wrap {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20px 0;
+}	
+
+.relaction {
+	text-align: left;
+}
+
+.relaction ul{
+	list-style: none;
+	padding: 0;
+}
